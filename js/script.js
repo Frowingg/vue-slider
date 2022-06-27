@@ -1,6 +1,7 @@
 var app = new Vue({
     el: '#app',
     data: {
+        timer: null,
         currentElement: 0,
         slides: [
         {
