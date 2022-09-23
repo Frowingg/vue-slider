@@ -58,6 +58,5 @@ var app = new Vue({
     },
     mounted() {
         timer = setInterval(this.showNextElement, 3000);
-        setInterval(timer, 3000);
     }
 });
